@@ -13,10 +13,10 @@ def create_enemy():
 		enemy_type = "goblin"
 	else:
 		print "Something fucked up :/"
-	return enemy_hp 
-	return enemy_att
-	return enemy_desc
-	return enemy_type
+	print enemy_hp 
+	print enemy_att
+	print enemy_desc
+	print enemy_type
 
 	
 create_enemy()
